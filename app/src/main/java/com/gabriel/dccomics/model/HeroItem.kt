@@ -1,4 +1,4 @@
-package com.gabriel.dccomics
+package com.gabriel.dccomics.model
 
 
 import com.google.gson.annotations.SerializedName

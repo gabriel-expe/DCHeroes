@@ -1,4 +1,4 @@
-package com.gabriel.dccomics
+package com.gabriel.dccomics.listHeroes
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,6 +6,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.gabriel.dccomics.R
+import com.gabriel.dccomics.model.HeroItem
 import com.squareup.picasso.Picasso
 
 class HeroAdapter(private val listHeroes : ArrayList<HeroItem>) : RecyclerView.Adapter<HeroAdapter.ViewHolder> (){

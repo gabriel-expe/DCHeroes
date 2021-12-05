@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">DC HEROES</string>
+    <string name="alias">Alias</string>
+    <string name="alias_example">Chris</string>
+    <string name="name_example">Batman</string>
 </resources>
