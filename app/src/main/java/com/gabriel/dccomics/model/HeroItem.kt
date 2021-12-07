@@ -2,6 +2,7 @@ package com.gabriel.dccomics.model
 
 
 import com.google.gson.annotations.SerializedName
+import java.io.Serializable
 
 data class HeroItem(
     @SerializedName("alias")
@@ -18,4 +19,4 @@ data class HeroItem(
     val powers: String,
     @SerializedName("urlPicture")
     val urlPicture: String
-)
+) : Serializable

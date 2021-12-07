@@ -10,7 +10,11 @@ import com.gabriel.dccomics.R
 import com.gabriel.dccomics.model.HeroItem
 import com.squareup.picasso.Picasso
 
-class HeroAdapter(private val listHeroes : ArrayList<HeroItem>) : RecyclerView.Adapter<HeroAdapter.ViewHolder> (){
+class HeroAdapter(
+
+    private val listHeroes : ArrayList<HeroItem>,
+    private val onItemClicked : (HeroItem) -> Unit
+    ) : RecyclerView.Adapter<HeroAdapter.ViewHolder> (){
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.card_view_heroe_item, parent, false)
@@ -19,6 +23,7 @@ class HeroAdapter(private val listHeroes : ArrayList<HeroItem>) : RecyclerView.A
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val hero = listHeroes[position]
+        holder.itemView.setOnClickListener { onItemClicked(listHeroes[position]) }
         holder.bind(hero)
     }
 
