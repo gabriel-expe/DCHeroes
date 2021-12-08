@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">DC HEROES</string>
+    <string name="alias">Alias</string>
+    <string name="alias_example">Chris</string>
+    <string name="name_example">Batman</string>
+    <string name="powers">Powers</string>
+    <string name="powers_example">Exceptional martial artist, combat strategy, inexhaustible wealth, brilliant deductive skill, advanced technology</string>
+    <string name="city">City</string>
+    <string name="city_example">Gotham</string>
+    <string name="facebook">Facebook</string>
+    <string name="facebook_example">https://www.facebook.com/batman</string>
+    <string name="occupation">Occupation</string>
+    <string name="occupation_example">CEO of Wayne Enterprises</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
